@@ -58,5 +58,5 @@ TimeQuorum is a commercial product. Source code is maintained in private reposit
 
 iOS and Android apps are distributed through their respective stores and are not hosted here.
 
-- **App Store** — coming soon
-- **Google Play** — coming soon
+- **App Store** — [apps.apple.com/app/timequorum](https://apps.apple.com/app/timequorum/id6774818744)
+- **Google Play** — [play.google.com/store/apps/details?id=com.timequorum.mobile](https://play.google.com/store/apps/details?id=com.timequorum.mobile)
