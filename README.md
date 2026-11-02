@@ -10,7 +10,7 @@ The easiest way to get the latest version is from the downloads page:
 
 Direct platform links (always redirect to the latest production release):
 
-- **Windows** — [releases.timequorum.com/download/windows](https://releases.timequorum.com/download/windows) (`.msi`, x64)
+- **Windows** — [releases.timequorum.com/download/windows](https://releases.timequorum.com/download/windows) (`-setup.exe`, x64)
 - **macOS** — [releases.timequorum.com/download/mac](https://releases.timequorum.com/download/mac) (`.dmg`, universal — Intel & Apple Silicon)
 - **Linux (Debian/Ubuntu)** — [releases.timequorum.com/download/linux-deb](https://releases.timequorum.com/download/linux-deb) (`.deb`, amd64)
 - **Linux (Fedora/RHEL)** — [releases.timequorum.com/download/linux-rpm](https://releases.timequorum.com/download/linux-rpm) (`.rpm`, x86_64)
@@ -21,7 +21,7 @@ A self-contained downloads page is also served at [releases.timequorum.com/downl
 
 | Platform | Minimum |
 |---|---|
-| Windows | Windows 10 64-bit (build 1903+), x64 |
+| Windows | Windows 10 64-bit (build 1903+), x64. The installer asks for administrator approval once, then lets you choose an install for only you or for anyone who uses this computer. |
 | macOS | macOS 12 Monterey (Intel or Apple Silicon) |
 | Linux | Ubuntu 22.04 / Debian 12 / Fedora 38 or equivalent, x86_64 |
 
@@ -31,12 +31,12 @@ Each platform is published under its **own release tag** — a single app versio
 
 | Tag | Contents |
 |---|---|
-| `desktop-win-v<version>` | `TimeQuorum_<version>_x64_en-US.msi` — Windows installer |
+| `desktop-win-v<version>` | `TimeQuorum_<version>_x64-setup.exe` — Windows installer |
 | `desktop-macos-v<version>` | `TimeQuorum_<version>_universal.dmg` — macOS installer (universal) |
 | `desktop-linux-deb-v<version>` | `timequorum-desktop_<version>_amd64.deb` — Debian/Ubuntu package |
 | `desktop-linux-rpm-v<version>` | `timequorum-desktop-<version>-1.x86_64.rpm` — Fedora/RHEL package |
 
-When auto-updater artifacts are built, the Windows release also carries the update payload (`.msi.zip` + `.msi.zip.sig`) and the macOS release its signature file (`.dmg.sig`).
+The Windows release also carries the installer's updater signature (`-setup.exe.sig`) and the macOS release its signature file (`.dmg.sig`).
 
 ### Dev builds
 
