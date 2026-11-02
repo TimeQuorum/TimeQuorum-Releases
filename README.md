@@ -36,7 +36,7 @@ Each platform is published under its **own release tag** — a single app versio
 | `desktop-linux-deb-v<version>` | `timequorum-desktop_<version>_amd64.deb` — Debian/Ubuntu package |
 | `desktop-linux-rpm-v<version>` | `timequorum-desktop-<version>-1.x86_64.rpm` — Fedora/RHEL package |
 
-The Windows release also carries the installer's updater signature (`-setup.exe.sig`) and the macOS release its signature file (`.dmg.sig`).
+The Windows release also carries the installer's updater signature (`-setup.exe.sig`); the macOS release carries the updater archive `TimeQuorum.app.tar.gz` and its `.sig` next to the `.dmg`.
 
 ### Dev builds
 
